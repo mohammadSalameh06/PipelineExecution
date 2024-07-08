@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pipeline.iml" filepath="$PROJECT_DIR$/.idea/modules/Pipeline.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pipeline.Pipeline-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Pipeline.Pipeline-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jarfles.iml" filepath="$PROJECT_DIR$/.idea/modules/jarfles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jarfles.jarfles-build.iml" filepath="$PROJECT_DIR$/.idea/modules/jarfles.jarfles-build.iml" />
     </modules>
   </component>
 </project>

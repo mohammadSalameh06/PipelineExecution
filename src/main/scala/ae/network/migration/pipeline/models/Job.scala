@@ -1,4 +1,4 @@
-package ae.network.migration.pipeline.models
+  package ae.network.migration.pipeline.models
 
-case class Job(Name:String , Jar:String , args:String, LogPath:String)
+    case class Job(name:String , jar:String , args:Array[String], logPath:String)
 

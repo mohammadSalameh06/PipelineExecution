@@ -1,18 +1,40 @@
 package ae.network.migration.pipeline
 
-import ae.network.migration.pipeline.models.{Pipeline, Stage , Job}
+import ae.network.migration.pipeline.models.{Pipeline, Stage, Job}
+import ae.network.migration.pipeline.parser.ParserJson
+import ae.network.migration.pipeline.processExecute.{JobExecution, StageProcessor, PipelineProcessor}
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.util.{Success, Failure}
+
 
 object Main {
+  def main(args: Array[String]): Unit = {
+    if (args.length != 1) {
+      println("Usage: Main <filename>")
+      System.exit(1)
+    }
+    val fileName = args(0)
+    println(s"Parsing file: $fileName")
 
-  val job1 = Job("Job1", "path/to/jar1", "arg1 arg2", "path/to/log1")
-  val job2 = Job("Job2", "path/to/jar2", "arg3 arg4", "path/to/log2")
+    val parser = new ParserJson
+    val pipeline = parser.parsePipeline(fileName)
 
-  val pipeline: Pipeline = Pipeline(List(
-    Stage("stage1", false, List(job1, job2)),
-    Stage("stage2", false,List(job1))
-  ))
+    val jobExecution = new JobExecution
+    val stageProcessor = new StageProcessor(jobExecution)
+    val pipelineProcessor = new PipelineProcessor(stageProcessor)
 
-  def main(arg: Array[String]): Unit = {
-    print(pipeline)
+
+    pipeline.stages.foreach(println)
+
+
+    println("\n")
+    pipelineProcessor.processPipeline(pipeline).onComplete {
+      case Success(results) =>
+        println(s"Pipeline executed successfully with results: $results")
+      case Failure(exception) =>
+        println(s"Pipeline execution failed with exception: ${exception.getMessage}")
+    }
+
+    Thread.sleep(5000)
   }
 }
