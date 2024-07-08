@@ -1,0 +1,65 @@
+[debug] Packaging D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\jarfles_3-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	ae
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae
+[debug] 	ae\network
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network
+[debug] 	ae\network\migration
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration
+[debug] 	ae\network\migration\pipeline
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline
+[debug] 	ae\network\migration\pipeline\Main$.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\Main$.class
+[debug] 	ae\network\migration\pipeline\Main.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\Main.class
+[debug] 	ae\network\migration\pipeline\Main.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\Main.tasty
+[debug] 	ae\network\migration\pipeline\models
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models
+[debug] 	ae\network\migration\pipeline\models\Job$.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Job$.class
+[debug] 	ae\network\migration\pipeline\models\Job.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Job.class
+[debug] 	ae\network\migration\pipeline\models\Job.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Job.tasty
+[debug] 	ae\network\migration\pipeline\models\Pipeline$.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Pipeline$.class
+[debug] 	ae\network\migration\pipeline\models\Pipeline.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Pipeline.class
+[debug] 	ae\network\migration\pipeline\models\Pipeline.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Pipeline.tasty
+[debug] 	ae\network\migration\pipeline\models\Stage$.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Stage$.class
+[debug] 	ae\network\migration\pipeline\models\Stage.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Stage.class
+[debug] 	ae\network\migration\pipeline\models\Stage.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\models\Stage.tasty
+[debug] 	ae\network\migration\pipeline\parser
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\parser
+[debug] 	ae\network\migration\pipeline\parser\ParserJson$$anon$1.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\parser\ParserJson$$anon$1.class
+[debug] 	ae\network\migration\pipeline\parser\ParserJson.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\parser\ParserJson.class
+[debug] 	ae\network\migration\pipeline\parser\ParserJson.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\parser\ParserJson.tasty
+[debug] 	ae\network\migration\pipeline\processExecute
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute
+[debug] 	ae\network\migration\pipeline\processExecute\JobExecution.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\JobExecution.class
+[debug] 	ae\network\migration\pipeline\processExecute\JobExecution.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\JobExecution.tasty
+[debug] 	ae\network\migration\pipeline\processExecute\PipelineProcessor.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\PipelineProcessor.class
+[debug] 	ae\network\migration\pipeline\processExecute\PipelineProcessor.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\PipelineProcessor.tasty
+[debug] 	ae\network\migration\pipeline\processExecute\ProcessExecutor$.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\ProcessExecutor$.class
+[debug] 	ae\network\migration\pipeline\processExecute\ProcessExecutor.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\ProcessExecutor.class
+[debug] 	ae\network\migration\pipeline\processExecute\ProcessExecutor.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\ProcessExecutor.tasty
+[debug] 	ae\network\migration\pipeline\processExecute\StageProcessor.class
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\StageProcessor.class
+[debug] 	ae\network\migration\pipeline\processExecute\StageProcessor.tasty
+[debug] 	  D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes\ae\network\migration\pipeline\processExecute\StageProcessor.tasty
+[debug] Done packaging.
