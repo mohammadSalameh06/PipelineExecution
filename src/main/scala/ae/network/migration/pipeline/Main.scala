@@ -6,7 +6,6 @@ import ae.network.migration.pipeline.processExecute.{JobExecution, StageProcesso
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.{Success, Failure}
 
-
 object Main {
   def main(args: Array[String]): Unit = {
     if (args.length != 1) {
@@ -23,9 +22,7 @@ object Main {
     val stageProcessor = new StageProcessor(jobExecution)
     val pipelineProcessor = new PipelineProcessor(stageProcessor)
 
-
     pipeline.stages.foreach(println)
-
 
     println("\n")
     pipelineProcessor.processPipeline(pipeline).onComplete {

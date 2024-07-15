@@ -6,7 +6,7 @@
       "jobs": [
         {
           "name": "job1",
-          "jar": "jarfles_3-0.1.0-SNAPSHOT.jar",
+          "jar": "JarFile.jar",
           "args": [
             "-jar"
           ],
@@ -24,7 +24,7 @@
       "jobs": [
         {
           "name": "job2",
-          "jar": "jar",
+          "jar": "JarFile.jar",
           "args": [
             "-i", "./input",
             "-o", "./output"
@@ -36,7 +36,7 @@
         },
         {
           "name": "job3+",
-          "jar": "jar",
+          "jar": "JarFile.jar",
           "args": [
             "-i", "./input",
             "-o", "./output"
