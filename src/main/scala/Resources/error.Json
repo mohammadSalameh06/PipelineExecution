@@ -1,20 +1,14 @@
 {
   "stages": [
     {
-      "name": "stage 1",
+      "name": "stage",
       "isParallel": true,
       "jobs": [
         {
           "name": "job1",
           "jar": "JarFile.jar",
-          "args": [
-            "-jar"
-          ],
-
-
-          "logPath"  : "LOG/path"
-
-
+          "args": ["-jar"],
+          "logPath": "LOG/path"
         }
       ]
     },
@@ -25,28 +19,14 @@
         {
           "name": "job2",
           "jar": "JarFile.jar",
-          "args": [
-            "-i", "./input",
-            "-o", "./output"
-          ],
-
-
-          "logPath"  : "LOG/path"
-
+          "args": ["-i", "./input", "-o", "./output"],
+          "logPath": "LOG/path"
         },
         {
           "name": "job3+",
           "jar": "JarFile.jar",
-          "args": [
-            "-i", "./input",
-            "-o", "./output"
-          ],
-
-
-          "logPath"  : "LOG/path"
-
+          "args": ["-i", "./input", "-o", "./output"],
+          "logPath": "LOG/path"
         }
       ]
     }
-  ]
-}
