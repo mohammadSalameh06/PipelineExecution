@@ -10,7 +10,9 @@ class JobExecution {
     val args = job.args.toList
     println(s"Starting job '${job.name}' with arguments: ${args.mkString(" ")}")
 
-    // Correctly use the "-jar" option to execute the JAR file
+    /**
+     * Correctly use the "-jar" option to execute the JAR file
+     */
     val result = ProcessExecutor.execute("java", "-jar" :: job.jar :: args)
     result.flatMap { process =>
       Future {
