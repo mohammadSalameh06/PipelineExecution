@@ -1,6 +1,0 @@
-[debug] [zinc] IncrementalCompile -----------
-[debug] IncrementalCompile.incrementalCompile
-[debug] previous = Stamps for: 15 products, 9 sources, 5 libraries
-[debug] current source = Set(${BASE}/src/main/scala/ae/network/migration/pipeline/processExcute/StageExcution.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/processExcute/PipelineProcessor.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/models/Stage.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/processExcute/JobExecution.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/models/Job.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/Main.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/models/Pipeline.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/processExcute/ProcessExecutor.scala, ${BASE}/src/main/scala/ae/network/migration/pipeline/parser/ParserJson.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
-[debug] No changes

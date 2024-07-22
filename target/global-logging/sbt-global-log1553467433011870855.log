@@ -1,7 +1,0 @@
-[debug] > Exec(compile, None, None)
-[debug] Evaluating tasks: Compile / compile
-[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[info] compiling 9 Scala sources to D:\Onedrive\OneDrive - AL-Hussien bin Abdullah Technical University\0-\Desktop\Codes\Pipeline\target\scala-3.3.3\classes ...
-[info] done compiling
-[success] Total time: 8 s, completed Jul 3, 2024, 10:23:04 AM
-[debug] > Exec(idea-shell, None, None)
