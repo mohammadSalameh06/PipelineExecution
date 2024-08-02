@@ -17,7 +17,6 @@ class ParserJsonSpec extends AnyFlatSpec with Matchers {
     println("Valid JSON parsed successfully.")
     pipeline.stages should not be empty
     pipeline.stages.head.name should be ("stage 1")
-    // Add more assertions as necessary
   }
 
   it should "throw a ParsingFailure exception for an invalid JSON file" in {
