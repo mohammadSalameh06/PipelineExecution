@@ -1,5 +1,4 @@
 package ae.network.migration.pipeline
-
 import ae.network.migration.pipeline.models.{Pipeline, Job}
 import ae.network.migration.pipeline.parser.ParserJson
 import ae.network.migration.pipeline.processExecute.{JobExecution, StageProcessor, PipelineProcessor}
@@ -23,7 +22,7 @@ object Main {
     // Parse the pipeline configuration
     val pipeline = parser.parsePipeline(fileName)
 
-    // Print the stages for debugging purposes
+    // Print the stages for debugging purposes,
     pipeline.stages.foreach(println)
 
     println("\n")

@@ -1,12 +1,11 @@
-  package ae.network.migration.pipeline.parser
+package ae.network.migration.pipeline.parser
+import ae.network.migration.pipeline.models.{Job, Pipeline, Stage}
+import io.circe.{Decoder, ParsingFailure}
+import io.circe.generic.semiauto.deriveDecoder
+import io.circe.jawn.decode
 
-  import ae.network.migration.pipeline.models.{Job, Pipeline, Stage}
-  import io.circe.{Decoder, ParsingFailure}
-  import io.circe.generic.semiauto.deriveDecoder
-  import io.circe.jawn.decode
-
-  import scala.io.Source
-  import scala.util.Using
+import scala.io.Source
+import scala.util.Using
 
   /**
    * ParserJson is responsible for parsing JSON configuration files into Pipeline objects.
